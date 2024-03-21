@@ -79,7 +79,7 @@ num_nodes = 100
 view_size = 5   
 exchange_interval = 1  
 nodes = [BasaltNode(node_id=i, num_nodes=num_nodes, view_size=view_size) for i in range(num_nodes)]
-print("-------------Avant Basalt-------------------")
+print("-------------Avant Basalt------------------")
 for i in range(10):
     print(nodes[i].afficher())
 
